@@ -1,16 +1,18 @@
-.topBar{ background-color: #F7F7F7; width:1600px; height:31px; line-height:31px;  }
+.topBar{ background-color: #F7F7F7; width:100%; height:31px; line-height:31px;  }
 .Box{ width:1010px; height:31px; margin:0px auto;}
 .leftTop{ background: url("../img/star_top.png") left center no-repeat;  text-indent: 17px; font-size: 12px;
     font-family: "宋体";  font-weight: bold; }
 .rightTop{font-size: 12px;  font-family: "宋体";  font-weight: bold;}
+.rightTop a{text-decoration: none;}
+.rightTop a:hover,.rightTop a:active{ color: #ed5e1a;}
 
 /* header */
-.header{ background-color: #1D7AD9;width:1600px;height:85px;line-height: 85px;}
+.header{ background-color: #1D7AD9;width:100%;height:85px;line-height: 85px;}
 .leftArea{ margin-left: 30px;height:85px;overflow: hidden;}
 .searchBox{margin-left:146px;padding-top: 23px;}
 .searchBox .input_field{ width:360px;height:25px;line-height:35px;padding: 5px;}
 .searchBox .submit_btn{ width: 70px;height: 35px;  background-color: #FF8C00;color: #fff;
-    font-family: "微软雅黑"; font-size: 14px;}
+    font-family: "微软雅黑"; font-size: 14px;cursor: pointer;}
 .shopBox{ width:145px; height:35px; background-color: #FF8C00;color: #fff;  font-family: "微软雅黑"; font-size: 14px;
 margin-right: 70px;margin-top: 23px;}
 .shopBox .shopCar{ width:86px;line-height: 35px;background: url("../img/shop_car.png") 10px center no-repeat;text-indent: 38px;
@@ -20,7 +22,7 @@ border-right: 1px solid #E27A00;}
 .shopBox a{color: #fff;}
 
 /* navBar */
-.navBar{ width:1600px;height:35px;background-color: #1369C0;line-height: 35px;}
+.navBar{ width:100%;height:35px;background-color: #1369C0;line-height: 35px;}
 .navBar a{ color: #fff;}
 .navBar .Box{height:35px;}
 .showClass{ width:189px;height:35px;line-height: 35px;background: url("../img/down.png") right 26px center no-repeat;font-size: 16px;
@@ -30,7 +32,7 @@ font-family: "微软雅黑"; font-weight: bold;text-indent: 36px;color: #fff;dis
 .menuActive{ background-color: #4593FD;}
 
 /* headBanner */
-.headBanner{width:1600px;height:325px;}
+.headBanner{width:100%;height:325px;}
 .headBanner .Box{ width:1010px; height:325px; margin:0px auto;}
 .leftList{width:189px;height:325px;}
 .shopClass{width:168px;height:38px;padding:14px 10px 11px 10px;background: url("../img/pointer_l.png") right 13px
@@ -63,7 +65,7 @@ font-size: 12px; font-family: "宋体"; line-height: 26px;padding-left:8px;margi
 
 
 /*content*/
-.content{ width:1600px; height:475px;}
+.content{ width:100%; height:475px;}
 .content .Box{ width:1010px;height:475px;}
 .top_content{ width:1010px;height:75px;}
 .type_pic{ width:190px;height:75px;}
@@ -80,7 +82,7 @@ font-size: 12px; font-family: "宋体"; line-height: 26px;padding-left:8px;margi
 
 
 /* footer */
-.footer{ width:1600px;height:223px;background-color: #D4D4D4;margin-top:40px;}
+.footer{ width:100%;height:223px;background-color: #D4D4D4;margin-top:40px;}
 .footer .Box{ width:1010px;height:170px;text-align: center;padding-top:53px; font-size: 12px; font-family: "新宋体";
 font-weight: bold;}
 /*.footer span{ margin-top:9px;}*/

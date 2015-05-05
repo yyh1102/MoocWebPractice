@@ -34,7 +34,7 @@ function hideList(n){
             shop_class.addClass("classActive");
             show_list.css({"display": "inherit"});
         });
-        //若执行了mouseenter 下面的语句不再执行
+        //实际上先执行以下语句，在执行上面mouseenter语句
         shop_class.removeClass("classActive");
         show_list.css({"display": "none"});
     });
@@ -43,7 +43,6 @@ function hideList(n){
             shop_class.addClass("classActive");
             show_list.css({"display": "inherit"});
         });
-        //若执行了mouseenter 下面的语句不再执行
         shop_class.removeClass("classActive");
         show_list.css({"display": "none"});
     });
